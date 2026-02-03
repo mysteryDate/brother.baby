@@ -24,25 +24,25 @@
 
         img {
             width: 70vw;
-            max-width: 800px;
-            /* optional safety */
+            max-height: 80vh;
+            height: auto;
+            object-fit: contain;
         }
 
         .links {
-            margin-top: 24px;
+            margin-top: 1rem;
             display: flex;
-            gap: 24px;
-            /* space between links */
+            flex-direction: column;
+            gap: 1rem;
+            text-align: center;
         }
 
         .links a {
-            text-decoration: none;
-            color: black;
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
 
         .links a:hover {
-            text-decoration: underline;
+            font-style: italic;
         }
     </style>
 </head>
@@ -52,7 +52,9 @@
 
     <div class="links">
         <a href="https://bbbrother.bandcamp.com/album/comfort-solutions">Bandcamp</a>
-        <!-- <a href="#">Link Two</a> -->
+        <a href="https://open.spotify.com/album/2D6VnIBoY3jsvdoIWXRzC7?si=ygaxWumsReeE6yZ5Q-DZHQ">Spotify</a>
+        <a href="https://music.youtube.com/playlist?list=OLAK5uy_lhpLzQopi2LIdsw6HdFV1HG7pvSat4LZA&si=I2na--yDsWG5TzvN">YT
+            Music</a>
     </div>
 </body>
 
